@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" onclick="editor.listion()">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DIV 文字编辑器</title>
+    <link rel="stylesheet" href="./dist/css/base.css?v=2019022001" type="text/css">
+    <link rel="stylesheet" href="./dist/css/style.css?v=2019022001" type="text/css">
+</head>
+<body >
+<div class="wrap">
+    <div class="header">
+        <h3>DIV 文字编辑器</h3>
+    </div>
+    <div class="main">
+        <div class="fl">
+            <img src="https://i0.hdslb.com/bfs/face/2a9130168a6c74b7bce93b48e057ad9eddbdd524.jpg@52w_52h.webp" alt="keepsilent" width="48">
+        </div>
+        <div class="fr">
+            <div class="edit-wrap">
+                <div class="edit-inner" id="wx-contentedit" contenteditable="true" onkeyup="editor.input()"></div>
+                <span class="emoji-btn" onclick="editor.showFace(event)" unselectable="on" onmousedown="return false;">表情</span>
+                <span class="edit-font-num-box">还可以输入<i id="wx-editor-font-num">140</i>字</span>
+
+                <div class="emoji-box" id="emoji-box" data-status="0">
+                    <ul class="emoji-list-box"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="./dist/js/lib/jquery.min.js" type="text/javascript"></script>
+<script src="./dist/js/base.js?v=2019022001" type="text/javascript"></script>
+<script src="./dist/js/edit.js?v=2019022001" type="text/javascript"></script>

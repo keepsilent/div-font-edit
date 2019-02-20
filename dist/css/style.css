@@ -1,0 +1,55 @@
+ html,body {
+        background: #FFF;
+    }
+    i { font-style: normal; }
+
+    .main div.fl { float: left;}
+    .main div.fl img { border-radius: 100%; }
+    .main div.fr { margin-left: 70px; }
+    .main div.edit-wrap { position: relative; width: 570px;}
+    .main div.edit-inner {
+        font-size: 12px;
+        display: inline-block;
+        box-sizing: border-box;
+        background-color: #f4f5f7;
+        border: 1px solid #e5e9ef;
+        overflow: auto;
+        border-radius: 4px;
+        color: #555;
+        width: 100%!important;
+        height: 65px;
+        transition: 0s;
+        padding: 5px 10px;
+        line-height: normal;
+    }
+
+    .main div.edit-inner:hover {
+        background-color: #fff;
+        border-color: #00a1d6;
+    }
+
+    .main span.emoji-btn {
+        display: inline-block;
+        padding: 0;
+        width: 66px;
+        height: 24px;
+        color: #99a2aa;
+        border: 1px solid #e5e9ef;
+        border-radius: 4px;
+        position: relative;
+        z-index: 101;
+        font-size: 12px;
+        text-align: center;
+        line-height: 23px;
+
+        margin-top: 3px;
+        cursor: pointer; }
+    .main span.edit-font-num-box { float: right; margin-top: 5px;  font-size: 12px;  }
+    .main span.edit-font-num-box i { margin: 0 2px; }
+
+    .emoji-box  {position: absolute; top: 110px; left: 0px; display: none; z-index: 999;font-size: 12px;line-height: 1.334;color: #5f5f5f;background: #fff;border: 1px solid #e7e7eb;padding: 5px;box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.1)}
+
+    .emoji-box  ul.emoji-list-box {margin: 0;padding: 0;list-style: none;width: 390px;overflow: hidden;background: url(../images/emotion/default.png) 0 0 no-repeat}
+    .emoji-box  ul.emoji-list-box li {margin: 0;padding: 0;float: left}
+    .emoji-box  ul.emoji-list-box li a {display: block;width: 24px;height: 24px;margin: 0;padding: 1px;text-decoration: none;float: left}
+    .emoji-box  ul.emoji-list-box li a:hover {padding: 0;border: 1px solid #2e8ded}

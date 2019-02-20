@@ -1,0 +1,28 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;}
+body {color: #2f332a;font: 15px/21px Arial, Helvetica, simsun, sans-serif;background: #f0f6e4 \9;}
+h1, h2, h3, h4, h5, h6 {color: #2f332a;font-weight: bold;font-family: Helvetica, Arial, sans-serif;padding-bottom: 5px;}
+h1 {font-size: 24px;line-height: 34px;text-align: center;}
+h2 {font-size: 14px;line-height: 24px;padding-top: 5px;}
+h6 {font-weight: normal;font-size: 12px;letter-spacing: 1px;line-height: 24px;text-align: center;}
+a {color:#3C6E31;text-decoration: underline;}
+a:hover { color:white;}
+input.radio {margin: 0 2px 0 8px;}
+input.radio.first {margin-left:0;}
+input.empty {color: lightgray;}
+
+ul {list-style: none;}
+
+.main { width: 100%;  }
+
+.header { padding: 20px; border-bottom: solid 1px #CCC; background: #FFF; }
+.header ul li { padding: 5px 0; }
+.header input[type='text'] { width: 280px;  height: 28px;  }
+.header select { width: 200px; height: 28px; }
+
+.header span { display: inline-block;  width: 100px; height: 36px; margin-right: 3px;  line-height: 36px; text-align: center; color: #FFF; font-size: 14px; border-radius: 2px;   }
+.header span.clean-btn { background: #d2d2d2; }
+.header span.find-btn { background: #fe7300; }
+
+html { background: #F1F1F1; }
+.main { padding:  20px; }
